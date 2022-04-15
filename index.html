@@ -11,11 +11,13 @@
     <link rel="icon" href="public/icon.png">
     <!--Shadow Divider-->
     <link rel="stylesheet" href="css/divider.css">
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/885e278b24.js" crossorigin="anonymous"></script>
     <title>TheUpBiziniz</title>
 </head>
 <body>
     <!--Bootstrap Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand">
                 <img src="public/iconlight.png" alt="logo" style="height: 1rem"/>TheUpBiziniz
@@ -29,10 +31,19 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#">About Us</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="#">Our Team</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Posts</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Our Partners</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
                   </li>
                 </ul>
                 <form class="d-flex">
@@ -45,7 +56,7 @@
 
     <!--Hero-->
     <header>
-        <div class="px-4 py-5 text-center">
+        <div class="px-4 my-5 pt-5 text-center">
             <img class="d-block mx-auto mb-4" src="public/icon.png" alt="logo" width="100">
             <h1 class="display-5 fw-bold">TheUpBiziniz</h1>
             <div class="col-lg-6 mx-auto">
@@ -60,6 +71,7 @@
     <div class="b-example-divider"></div>
 
     <main>
+        <!--Quote-->
         <section>
             <div class="px-4 my-5 text-center border-bottom">
                 <div class="col-lg-8 mx-auto">
@@ -72,26 +84,293 @@
 
         <div class="b-example-divider"></div>
 
+        <!--Tầm Nhìn-->
         <section>
-            <div class="container my-5">
-                <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
-                  <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-                    <h1 class="display-4 fw-bold lh-1">Border hero with cropped image and shadows</h1>
+            <div class="container col-xxl-8 px-4 py-5">
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                  <div class="col-lg-6">
+                    <h2 class="display-5 fw-bold lh-1 mb-3">Tầm Nhìn</h2>
                     <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-                      <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Primary</button>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                      <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
                       <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
                     </div>
                   </div>
-                  <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-                      <img class="rounded-lg-3" src="bootstrap-docs.png" alt="" width="720">
+                  <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="public/vision.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
                   </div>
                 </div>
             </div>
         </section>
-    </main>
-    <footer>
 
+        <div class="b-example-divider"></div>
+
+        <!--Sứ Mệnh-->
+        <section>
+            <div class="container col-xxl-8 px-4 py-5">
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                  <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="public/mission.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                  </div>
+                  <div class="col-lg-6">
+                    <h2 class="display-5 fw-bold lh-1 mb-3">Sứ Mệnh</h2>
+                    <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                      <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+                      <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="b-example-divider"></div>
+
+        <!--Giá Trị Cốt Lõi-->
+        <section>
+            <div class="container col-xxl-8 px-4 py-5">
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                  <div class="col-lg-6">
+                    <h2 class="display-5 fw-bold lh-1 mb-3">Giá Trị Cốt Lõi</h2>
+                    <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                      <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+                      <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+                    </div>
+                  </div>
+                  <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="public/corevalues.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                  </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="b-example-divider"></div>
+
+        <!--Các Sự Kiện Tổ Chức-->
+        <section>
+            <div class="container px-4 py-5" id="custom-cards">
+                <h2 class="display-5 fw-bold lh-1 mb-3 border-bottom py-2 ">Sự Kiện Đã Tổ Chức</h2>
+
+                <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                    <!--Card 1-->
+                  <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('public/unsplash-photo-1.jpg');">
+                      <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h2>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Card 2-->
+                  <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('public/unsplash-photo-2.jpg');">
+                      <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h2>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Card 3-->
+                  <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('public/unsplash-photo-3.jpg');">
+                      <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                        <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="b-example-divider"></div>
+
+        <!--Thành Tựu-->
+        <section class="container">
+            <div class="container px-4 py-5" id="featured-3">
+                <h2 class="display-5 fw-bold lh-1 mb-3 border-bottom py-2 ">Thành Tựu</h2>
+                <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                  <div class="feature col">
+                    <h2><i class="fa-solid fa-thumbs-up fa-lg mb-4"></i> Featured title</h2>
+                    <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                  </div>
+                  <div class="feature col">
+                    <h2><i class="fa-solid fa-person fa-lg mb-4"></i> Featured title</h2>
+                    <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                  </div>
+                  <div class="feature col">
+                    <h2><i class="fa-solid fa-hourglass-empty fa-lg mb-4"></i> Featured title</h2>
+                    <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                  </div>
+                
+              </div>
+        </section>
+
+        <div class="b-example-divider"></div>
+
+        <!--Lý Do Thành Lập-->
+        <section>
+            <div class="container col-xxl-8 px-4 py-5">
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                  <div class="col-lg-6">
+                    <h2 class="display-5 fw-bold lh-1 mb-3">Lý Do Thành Lập</h2>
+                    <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                      <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+                      <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+                    </div>
+                  </div>
+                  <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="public/reason.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                  </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="b-example-divider"></div>
+
+        <!--Core Team-->
+        <section class="container col-xxl-8 px-4 py-5">
+            <div class="row">
+                <h2 class="display-5 fw-bold lh-1 mb-5 border-bottom py-2 ">Core Team</h2>
+                <div class="col-lg-4">
+                  <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+          
+                  <h2>Heading</h2>
+                  <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+                  <p><a class="btn btn-primary" href="#">View details &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                  <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+          
+                  <h2>Heading</h2>
+                  <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+                  <p><a class="btn btn-primary" href="#">View details &raquo;</a></p>
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                  <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+          
+                  <h2>Heading</h2>
+                  <p>And lastly this, the third column of representative placeholder content.</p>
+                  <p><a class="btn btn-primary" href="#">View details &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+              </div><!-- /.row -->
+        </section>
+
+        <div class="b-example-divider"></div>
+
+        <!--Blog Posts-->
+        <section class="container">
+            <h2 class="display-5 fw-bold lh-1 my-5 border-bottom py-2 ">Blog Posts</h2>
+            <div class="p-4 p-md-5 my-5 text-white rounded bg-dark">
+                <div class="col-md-6 px-0">
+                  <h1 class="display-4 fst-italic">Title of a longer featured blog post</h1>
+                  <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
+                  <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
+                </div>
+              </div>
+            
+              <div class="row mb-2">
+                <div class="col-md-6">
+                  <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                      <strong class="d-inline-block mb-2 text-primary">World</strong>
+                      <h3 class="mb-0">Featured post</h3>
+                      <div class="mb-1 text-muted">Nov 12</div>
+                      <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                      <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                      <strong class="d-inline-block mb-2 text-success">Design</strong>
+                      <h3 class="mb-0">Post title</h3>
+                      <div class="mb-1 text-muted">Nov 11</div>
+                      <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                      <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <div class="b-example-divider"></div>
+
+        <!--Quote-->
+        <section>
+            <div class="px-4 my-5 text-center border-bottom">
+                <div class="col-lg-8 mx-auto">
+                  <p class="lead mb-4">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.”</p>
+                  <img src="public/circle.png" alt="circle"/>
+                  <p class="mt-3">Maria Lopez, VP of Design at Meshery</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="b-example-divider"></div>
+
+        <!--Contact Us-->
+        <section>
+            <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+                <div class="row align-items-center g-lg-5 py-5">
+                  <div class="col-lg-7 text-center text-lg-start">
+                    <h1 class="display-4 fw-bold lh-1 mb-3">Contact Us</h1>
+                    <p class="col-lg-10 fs-4">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+                  </div>
+                  <div class="col-md-10 mx-auto col-lg-5">
+                    <form class="p-4 p-md-5 border rounded-3 bg-light" method="post">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Name">
+                            <label for="floatingInput">Name</label>
+                          </div>
+                      <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <textarea class="form-control" id="floatingInput" placeholder="Please enter your message here" rows="3"></textarea>
+                        <label for="floatingInput">Message</label>
+                      </div>
+                      <button class="w-100 btn btn-lg btn-primary" type="submit">Submit</button>
+                      <hr class="my-4">
+                      <small class="text-muted">By clicking Submit, you agree to the terms of use.</small>
+                    </form>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <div class="b-example-divider"></div>
+    </main>
+
+    <!--Footer-->
+    <footer>
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+              <p class="col-md-4 mb-0 text-muted">&copy; 2022 TheUpBiziniz, Inc</p>
+          
+              <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+                <img src="public/icon.png" alt="logo" height="50px"/>
+              </a>
+          
+              <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About Us</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Our Team</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Posts</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contact Us</a></li>
+              </ul>
+            </footer>
+          </div>
     </footer>
 </body>
 </html>
