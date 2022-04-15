@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="css/style.css">
     <!--FontAwesome-->
     <script src="https://kit.fontawesome.com/885e278b24.js" crossorigin="anonymous"></script>
+    <!--ScrollReveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>TheUpBiziniz</title>
 </head>
 <body>
@@ -62,7 +64,7 @@
             <div class="col-lg-6 mx-auto">
               <p class="lead mb-4">“The UpBiziniz” is a non-profit project founded by teenagers across Vietnam. With the aim of learning and sharing knowledge about business, we hope to spread the fire of passion for entrepreneurship among young generations.</p>
               <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                <a type="button" class="btn btn-dark btn-lg px-4 gap-3 col-lg-4" href="https://www.facebook.com/TheUpBiziniz.Project" target="_blank">Join Us</a>
+                <a type="button" class="btn btn-primary btn-lg px-4 gap-3 col-lg-4" href="https://www.facebook.com/TheUpBiziniz.Project" target="_blank">Join Us</a>
               </div>
             </div>
           </div>
@@ -232,14 +234,14 @@
             <div class="row">
                 <h2 class="display-5 fw-bold lh-1 mb-5 border-bottom py-2 ">Core Team</h2>
                 <div class="col-lg-4">
-                  <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+                  <img src="public/bigcircle.png" alt="Core Teams" height="140px"/>
           
                   <h2>Heading</h2>
                   <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
                   <p><a class="btn btn-primary" href="#">View details &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                  <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+                  <img src="public/bigcircle.png" alt="Core Teams" height="140px"/>
           
                   <h2>Heading</h2>
                   <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
@@ -247,7 +249,7 @@
                 </div>
                 <!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                  <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+                  <img src="public/bigcircle.png" alt="Core Teams" height="140px"/>
           
                   <h2>Heading</h2>
                   <p>And lastly this, the third column of representative placeholder content.</p>
@@ -372,5 +374,26 @@
             </footer>
           </div>
     </footer>
+
+    <script>
+      ScrollReveal().reveal('header', {
+                                reset:'true', 
+                                distance:'25px'
+                            });
+      ScrollReveal().reveal('.card', {
+                                reset:'true',
+                                distance:'25px',
+                                origin:'bottom',
+                                delay:'200',
+                                interval:'200'
+                            });
+      ScrollReveal().reveal('img', {
+                                reset:'true',
+                                distance:'25px',
+                                origin:'left',
+                                delay:'200',
+                                interval:'200'
+                            });
+    </script>
 </body>
 </html>
